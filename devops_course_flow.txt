@@ -52,7 +52,14 @@ sudo apt get update
 
 _____________________
 
-git : version control system
+git : 
+
+Git SSH cloning:
+for this you need to create ssh keys: ssh-keygen -i rsa
+copy the generated key content (file.pub)to github>setting/ssh/
+copy ssh clone link and use: git clone <ssh link>
+
+version control system
 - on github create a repo, create a files.
 - create a dir: /c/code
 - on git bash : git clone <repo download link>
@@ -165,7 +172,7 @@ REFER: Github Tutorial : What is Pull Request?
 this diiferent then what we use #git pull
 This PULL is in GIthub if we have downloaded someones repo, we made changes and we send a reqyest to original owner of repo to ask him to pull ur code code looks good to the owner.
 
-
+-----------------------------------------------
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>..
 - I deleted file A in CLI then add>commit>push (it worked , file got deleted over github)
